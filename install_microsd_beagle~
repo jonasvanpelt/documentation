@@ -1,0 +1,26 @@
+1. follow steps here:
+http://dev.gentoo.org/~armin76/arm/beagleboneblack/install_emmc.xml
+
+2. mount the sd cart
+
+http://eewiki.net/display/linuxonarm/BeagleBone#BeagleBone-SetupmicroSD/SDcard
+
+export DISK=/dev/mmcblk0
+
+sudo mkdir -p /media/boot/
+sudo mkdir -p /media/rootfs/
+
+sudo mount ${DISK}p1 /media/boot/
+sudo mount ${DISK}p2 /media/rootfs/
+
+
+
+
+*******
+JE MOET SD CARD ALTIJD OPNIEW MOUNTEN
+*****
+
+export DISK=/dev/mmcblk0
+mount ${DISK}p2 /media/sdcard/
+
+

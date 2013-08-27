@@ -1,0 +1,9 @@
+you want to rais the max freq:
+<configure name="TELEMETRY_FREQUENCY" value="100"/>
+[15:12:45] Felix Ruess: the function that sends telemetry messages runs at TELEMETRY_FREQUENCY, so that max is for all messages...
+[15:13:04] Felix Ruess: but how often each message is sent is defined by the period in your telemetry.xml file
+[15:13:25] Jonas Van Pelt: ok
+[15:13:53] Felix Ruess: also your PERIODIC_FREQUENCY needs to be >= TELEMETRY_FREQUENCY
+[15:14:01] Jonas Van Pelt: okay
+[15:14:19] Felix Ruess: which is already the case for rotorcraft firmware, where it defaults to 512Hz
+
