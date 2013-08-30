@@ -1,0 +1,9 @@
+﻿Software
+
+All the code and documentation can be found here:
+
+https://github.com/jonasvanpelt/highwind
+
+Please check
+README
+documentation in the header files
